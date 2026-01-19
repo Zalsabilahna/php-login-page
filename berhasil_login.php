@@ -23,6 +23,7 @@ if (!isset($_SESSION['username'])) {
     <div class="container-logout">
         <form action="logout.php" method="POST" class="login-email">
             <h1>Selamat datang, <?php echo $_SESSION['username']; ?>!</h1>
+            <h2>IP Address Server<?php echo $_SERVER['SERVER_ADDR']; ?></h2>
             <div class="input-group">
                 <button type="submit" class="btn">Logout</button>
             </div>
