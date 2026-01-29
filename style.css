@@ -192,3 +192,48 @@ body {
 .login-register-text a:hover {
     text-decoration: underline;
 }
+
+/* Container dashboard */
+.container-logout {
+    width: 500px;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 50px auto;
+}
+
+/* Judul dashboard */
+.container-logout h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.container-logout h2 {
+    color: #27ae60;
+    margin-bottom: 20px;
+}
+
+.container-logout p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Button logout */
+.container-logout .btn {
+    width: 200px;
+    padding: 12px;
+    background: #27ae60;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container-logout .btn:hover {
+    background: #2ecc71;
+}
+
