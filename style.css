@@ -101,4 +101,94 @@ h1 {
     .container {
         width: 300px;
     }
+
+}
+
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body dan background */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f8ff; /* warna lembut untuk Laundry */
+}
+
+/* Container form */
+.container {
+    width: 400px;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul login */
+.login-text {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Input group */
+.input-group {
+    margin: 15px 0;
+}
+
+/* Input field */
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #27ae60; /* hijau laundry */
+    box-shadow: 0 0 5px #27ae60;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #27ae60; /* hijau Laundry */
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #2ecc71;
+}
+
+/* Teks register */
+.login-register-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.login-register-text a {
+    color: #27ae60;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-register-text a:hover {
+    text-decoration: underline;
 }
