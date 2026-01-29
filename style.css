@@ -237,3 +237,16 @@ body {
     background: #2ecc71;
 }
 
+
+.login-text {
+    color: #2c3e50;
+}
+.input-group input:focus {
+    border-color: #27ae60; /* hijau laundry */
+}
+.btn {
+    background: #27ae60;
+}
+.btn:hover {
+    background: #2ecc71;
+}
