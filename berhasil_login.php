@@ -17,16 +17,22 @@ if (!isset($_SESSION['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Login berhasil!</title>
+    <title>Dashboard Laundry</title>
 </head>
 <body>
     <div class="container-logout">
         <form action="logout.php" method="POST" class="login-email">
             <h1>Selamat datang, <?php echo $_SESSION['username']; ?>!</h1>
-            <h2>IP Address Server<?php echo $_SERVER['SERVER_ADDR']; ?></h2>
+            <p>Selamat datang di <b>Laundry Clean & Fresh</b></p>
+            <h2>IP Server: <?php echo $_SERVER['SERVER_ADDR']; ?></h2>
+
             <div class="input-group">
                 <button type="submit" class="btn">Logout</button>
             </div>
+
+            <p style="text-align:center; margin-top: 20px;">
+                Silakan pilih menu layanan laundry Anda di panel berikut
+            </p>
         </form>
     </div>
 </body>
