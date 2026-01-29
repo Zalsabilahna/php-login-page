@@ -250,3 +250,117 @@ body {
 .btn:hover {
     background: #2ecc71;
 }
+
+/* Header / Navbar */
+header.header {
+    background: #27ae60;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.header nav a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header.header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #eafaf1;
+}
+
+.hero .btn {
+    margin-top: 20px;
+    background: #27ae60;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero .btn:hover {
+    background: #2ecc71;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.services .card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 200px;
+}
+
+/* Order Form */
+.order {
+    padding: 50px 20px;
+    background: #f0f8ff;
+    text-align: center;
+}
+
+.order-form {
+    display: inline-block;
+    text-align: left;
+}
+
+.order-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.order-form input,
+.order-form select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.order-form .btn {
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* Promo Section */
+.promo {
+    padding: 50px 20px;
+    background: #eafaf1;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #27ae60;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
